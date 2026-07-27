@@ -9,7 +9,7 @@ import {
 const App = () => {
   // Estado principal de la aplicación
   const [activeTab, setActiveTab] = useState('dashboard');
-  const [entries, setEntries] = useState([]);
+  const [entries, setEntries] = useState<any[]>([]);
  
   // Estado para el formulario
   const [weight, setWeight] = useState('');
